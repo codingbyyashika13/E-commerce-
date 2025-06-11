@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cart</title>
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="style.css">
+        <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"> 
+
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <section class="header">
+            <div class="nav">
+              <input type="checkbox" id="nav-check">
+              <div class="nav-header">
+                <div class="nav-title">
+                  <img src="./images/uselogo.jpg" alt="logo" class="logo">
+                </div>
+              </div>
+              <div class="nav-btn">
+                <label for="nav-check">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </label>
+              </div>
+              <div class="nav-links">
+                <a  href="index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <!-- <a href="blog.html">Blog</a> -->
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a class="active" href="cart.html"><iconify-icon icon="tabler:shopping-bag" width="35" flip="horizontal"
+                    style="margin-top:10px;"></iconify-icon></a>
+              </div>
+        
+            </div>
+          </section>
+
+          <section id="page-header" style="background-image: url(./images/cart\ image.jpg);">
+            <h2 style="font-size: 60px; font-weight:600; padding-bottom: 10px;">#cart</h2>
+      
+            <p style="font-size: 20px; font-weight: 500;">Add your coupon code & SAVE upto 70%! </p>
+      
+      
+          </section>
+
+          <section id="cart" class="section-p1">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Remove</td>
+                        <td>Image</td>
+                        <td>Product</td>
+                        <td>Price</td>
+                        <td>Quantity</td>
+                        <td>Subtotal</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr >
+                        <td><i class="far fa-times-circle"></i></td>
+                        <td><img src="./images/shirt1.jpg" alt="" ></td>
+                        <td>SunWard Summer T-shirt </td>
+                        <td>$79</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$79</td>
+                    </tr>
+                    <tr>
+                        <td><i class="far fa-times-circle" style="margin:15px"></i></td>
+                        <td><img src="./images/shirt2.jpg" alt="" style="height: 60px; width: 70px; margin: 25px 15px 15px -15px;"></td>
+                        <td>SunWard Summer T-shirt </td>
+                        <td>$87</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$87</td>
+                    </tr>
+                    <tr>
+                        <td><i class="far fa-times-circle" style="margin:15px"></i></td>
+                        <td><img src="./images/shirt5.jpg" alt="" style="height: 60px; width: 70px; margin: 25px 15px 15px -15px;"></td>
+                        <td>SunWard Summer T-shirt </td>
+                        <td>$85</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$85</td>
+                    </tr>
+                </tbody>
+            </table>
+          </section>
+
+          <section id="cart-add" class="section-p1">
+            <div id="coupon">
+              <h3 style="font-size: 25px;">Add Coupon</h3>
+              <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal" style="font-weight: 800; font-size: 16px;">Apply</button>
+              </div>
+            </div>
+            <div id="subtotal">
+              <h3 style="font-size: 25px;">Cart Totals</h3>
+              <table>
+                <tr>
+                  <td>Cart Subtotal</td>
+                  <td>$335</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>Free</td>
+                </tr>
+                <tr>
+                  <td><strong>Total</strong></td>
+                  <td><strong>$567</strong></td>
+                </tr>
+              </table>
+              <button class="normal" style="width:220px;font-weight: 800;font-size: 16px; border-radius: 10px;">Proceed to checkout</button>
+
+            </div>
+          </section>
+
+
+          <section>
+
+            <!--footer-->
+            <footer class="padding_4x">
+              <div class="flex">
+                <section class="flex-content padding_1x">
+                  <h3>Top Products</h3>
+                  <a href="#">Managed Website</a>
+                  <a href="#">Manage Reputation</a>
+                  <a href="#">Power Tools</a>
+                  <a href="#">Marketing Service</a>
+                </section>
+                <section class="flex-content padding_1x">
+                  <h3>Quick Links</h3>
+                  <a href="index.html">Home</a>
+                  <a href="shop.html">Shop</a>
+                  <a href="blog.html">Blog</a>
+                  <a href="about.html">About</a>
+                  <a href="contact.html">Contact</a>
+      
+                </section>
+                <section class="flex-content padding_1x">
+                  <h3>Features</h3>
+                  <a href="#">Jobs</a>
+                  <a href="#">Brand Assets</a>
+                  <a href="#">Investor Relations</a>
+                  <a href="#">Terms of Service</a>
+                </section>
+                <section class="flex-content padding_1x">
+                  <h3>Resources</h3>
+                  <a href="#">Guides</a>
+                  <a href="#">Research</a>
+                  <a href="#">Experts</a>
+                  <a href="#">Agencies</a>
+                </section>
+      
+              </div>
+              <div class="flex">
+                <section class="flex-content padding_1x">
+                  <p style="color: black;">Copyright ©2023 All rights reserved || Shop.me</p>
+                </section>
+                <section class="flex-content padding_1x">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-dribbble"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                </section>
+              </div>
+            </footer>
+          </section>
+
+        <script src="script.js"></script>
+        <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+        <script src="https://kit.fontawesome.com/bd09f49bc6.js" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>

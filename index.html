@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section class="header">
+      <div class="nav">
+        <input type="checkbox" id="nav-check" />
+        <div class="nav-header">
+          <div class="nav-title">
+            <img src="./images/uselogo.jpg" alt="logo" class="logo" />
+          </div>
+        </div>
+        <!-- <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div> -->
+        <div class="nav-links">
+          <a class="active" href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <!-- <a href="blog.html">Blog</a> -->
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="cart.html"
+            ><iconify-icon
+              icon="tabler:shopping-bag"
+              width="35"
+              flip="horizontal"
+              style="margin-top: 10px"
+            ></iconify-icon
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="hero">
+      <h4>Trade-in-offer</h4>
+      <h2>Super Value Deals</h2>
+      <h1>On all Products.</h1>
+
+      <p>Save more with coupons & upto 70% off!!!</p>
+
+      <button class="btn" onclick="window.location.href='shop.html';">
+        <span class="btn-text-one">Shop Now!</span>
+        <span class="btn-text-two">Welcome</span>
+      </button>
+    </section>
+
+    <section id="feature" class="section-p1">
+      <div class="fe-box">
+        <img
+          src="./images/free shipping.webp"
+          alt="free shipping"
+          class="fe-image"
+        />
+        <h6>Free Shipping</h6>
+      </div>
+
+      <div class="fe-box">
+        <img
+          src="./images/online oreder.jpg"
+          alt="free shipping"
+          class="fe-image"
+        />
+        <h6>Online Order</h6>
+      </div>
+
+      <div class="fe-box">
+        <img
+          src="./images/happy sell.jpg"
+          alt="free shipping"
+          class="fe-image"
+        />
+        <h6>Save Money</h6>
+      </div>
+
+      <div class="fe-box">
+        <img
+          src="./images/promotion.webp"
+          alt="free shipping"
+          class="fe-image"
+        />
+        <h6>Promotion</h6>
+      </div>
+
+      <div class="fe-box">
+        <img
+          src="./images/save money.webp"
+          alt="free shipping"
+          class="fe-image"
+        />
+        <h6>Happy Sell</h6>
+      </div>
+
+      <div class="fe-box">
+        <img src="./images/support.png" alt="free shipping" class="fe-image" />
+        <h6>F24/7 Support</h6>
+      </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+      <h2>Featured Products</h2>
+      <p>Summer Collection New Mordern Design</p>
+      <div class="pro-container">
+        <div class="pro" onclick="window.location.href='sproduct.html';">
+          <img src="./images/shirt1.jpg" alt="" class="cloth" />
+          <div class="des">
+            <span>Shirt</span>
+            <h5>SunWard Summer T-Shirt</h5>
+            <div class="star">
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <!-- <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon> -->
+            </div>
+            <h4>$78</h4>
+            <a href="#" class="cart"
+              ><iconify-icon
+                icon="jam:shopping-cart"
+                style="color: black"
+                width="40"
+                height="40"
+              ></iconify-icon
+            ></a>
+          </div>
+        </div>
+
+        <div class="pro" onclick="window.location.href='sproduct.html';">
+          <img src="./images/shirt2.jpg" alt="" class="cloth" />
+          <div class="des">
+            <span>Shirt</span>
+            <h5>SunWard Summer T-Shirt</h5>
+            <div class="star">
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+            </div>
+            <h4>$80</h4>
+            <a href="#" class="cart"
+              ><iconify-icon
+                icon="jam:shopping-cart"
+                style="color: black"
+                width="40"
+                height="40"
+              ></iconify-icon
+            ></a>
+          </div>
+        </div>
+
+        <div class="pro" onclick="window.location.href='sproduct.html';">
+          <img src="./images/shirt 3.jpg" alt="" class="cloth" />
+          <div class="des">
+            <span>Shirt</span>
+            <h5>SunWard Summer T-Shirt</h5>
+            <div class="star">
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+            </div>
+            <h4>$70</h4>
+            <a href="#" class="cart"
+              ><iconify-icon
+                icon="jam:shopping-cart"
+                style="color: black"
+                width="40"
+                height="40"
+              ></iconify-icon
+            ></a>
+          </div>
+        </div>
+
+        <div class="pro" onclick="window.location.href='sproduct.html';">
+          <img src="./images/shirt4.jpg" alt="" class="cloth" />
+          <div class="des">
+            <span>Shirt</span>
+            <h5>SunWard Summer T-Shirt</h5>
+            <div class="star">
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+            </div>
+            <h4>$87</h4>
+            <a href="#" class="cart"
+              ><iconify-icon
+                icon="jam:shopping-cart"
+                style="color: black"
+                width="40"
+                height="40"
+              ></iconify-icon
+            ></a>
+          </div>
+        </div>
+
+        <div class="pro" onclick="window.location.href='sproduct.html';">
+          <img src="./images/shirt5.jpg" alt="" class="cloth" />
+          <div class="des">
+            <span>Shirt</span>
+            <h5>SunWard Summer T-Shirt</h5>
+            <div class="star">
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+            </div>
+            <h4>$70</h4>
+            <a href="#" class="cart"
+              ><iconify-icon
+                icon="jam:shopping-cart"
+                style="color: black"
+                width="40"
+                height="40"
+              ></iconify-icon
+            ></a>
+          </div>
+        </div>
+
+        <div class="pro" onclick="window.location.href='sproduct.html';">
+          <img src="./images/shirt6.jpg" alt="" class="cloth" />
+          <div class="des">
+            <span>Shirt</span>
+            <h5>SunWard Summer T-Shirt</h5>
+            <div class="star">
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+            </div>
+            <h4>$78</h4>
+            <a href="#" class="cart"
+              ><iconify-icon
+                icon="jam:shopping-cart"
+                style="color: black"
+                width="40"
+                height="40"
+              ></iconify-icon
+            ></a>
+          </div>
+        </div>
+
+        <div class="pro" onclick="window.location.href='sproduct.html';">
+          <img src="./images/shirt7.jpg" alt="" class="cloth" />
+          <div class="des">
+            <span>Shirt</span>
+            <h5>SunWard Summer T-Shirt</h5>
+            <div class="star">
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+            </div>
+            <h4>$80</h4>
+            <a href="#" class="cart"
+              ><iconify-icon
+                icon="jam:shopping-cart"
+                style="color: black"
+                width="40"
+                height="40"
+              ></iconify-icon
+            ></a>
+          </div>
+        </div>
+
+        <div class="pro" onclick="window.location.href='sproduct.html';">
+          <img src="./images/shirt8.jpg" alt="" class="cloth" />
+          <div class="des">
+            <span>Shirt</span>
+            <h5>SunWard Summer T-Shirt</h5>
+            <div class="star">
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+            </div>
+            <h4>$78</h4>
+            <a href="#" class="cart"
+              ><iconify-icon
+                icon="jam:shopping-cart"
+                style="color: black"
+                width="40"
+                height="40"
+              ></iconify-icon
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="banner" class="section-m1">
+      <h4>Repair Services</h4>
+      <h2>Up to <span>70% Off</span> - All T-Shirts and Accessories.</h2>
+      <button class="explore">Explore More...</button>
+    </section>
+
+    <section id="product1" class="section-p1">
+      <h2>New Arrivals</h2>
+      <p>Summer Collection New Mordern Design</p>
+      <div class="pro-container">
+        <div class="pro" onclick="window.location.href='shop.html';">
+          <img src="./images/shirt1.jpg" alt="" class="cloth" />
+          <div class="des">
+            <span>Shirt</span>
+            <h5>SunWard Summer T-Shirt</h5>
+            <div class="star">
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+            </div>
+            <h4>$78</h4>
+            <a href="#" class="cart"
+              ><iconify-icon
+                icon="jam:shopping-cart"
+                style="color: black"
+                width="40"
+                height="40"
+              ></iconify-icon
+            ></a>
+          </div>
+        </div>
+
+        <div class="pro" onclick="window.location.href='shop.html';">
+          <img src="./images/shirt2.jpg" alt="" class="cloth" />
+          <div class="des">
+            <span>Shirt</span>
+            <h5>SunWard Summer T-Shirt</h5>
+            <div class="star">
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+            </div>
+            <h4>$80</h4>
+            <a href="#" class="cart"
+              ><iconify-icon
+                icon="jam:shopping-cart"
+                style="color: black"
+                width="40"
+                height="40"
+              ></iconify-icon
+            ></a>
+          </div>
+        </div>
+
+        <div class="pro" onclick="window.location.href='shop.html';">
+          <img src="./images/shirt 3.jpg" alt="" class="cloth" />
+          <div class="des">
+            <span>Shirt</span>
+            <h5>SunWard Summer T-Shirt</h5>
+            <div class="star">
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+            </div>
+            <h4>$70</h4>
+            <a href="#" class="cart"
+              ><iconify-icon
+                icon="jam:shopping-cart"
+                style="color: black"
+                width="40"
+                height="40"
+              ></iconify-icon
+            ></a>
+          </div>
+        </div>
+
+        <div class="pro" onclick="window.location.href='shop.html';">
+          <img src="./images/shirt4.jpg" alt="" class="cloth" />
+          <div class="des">
+            <span>Shirt</span>
+            <h5>SunWard Summer T-Shirt</h5>
+            <div class="star">
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+            </div>
+            <h4>$87</h4>
+            <a href="#" class="cart"
+              ><iconify-icon
+                icon="jam:shopping-cart"
+                style="color: black"
+                width="40"
+                height="40"
+              ></iconify-icon
+            ></a>
+          </div>
+        </div>
+
+        <div class="pro" onclick="window.location.href='shop.html';">
+          <img src="./images/shirt5.jpg" alt="" class="cloth" />
+          <div class="des">
+            <span>Shirt</span>
+            <h5>SunWard Summer T-Shirt</h5>
+            <div class="star">
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+            </div>
+            <h4>$70</h4>
+            <a href="#" class="cart"
+              ><iconify-icon
+                icon="jam:shopping-cart"
+                style="color: black"
+                width="40"
+                height="40"
+              ></iconify-icon
+            ></a>
+          </div>
+        </div>
+
+        <div class="pro" onclick="window.location.href='shop.html';">
+          <img src="./images/shirt6.jpg" alt="" class="cloth" />
+          <div class="des">
+            <span>Shirt</span>
+            <h5>SunWard Summer T-Shirt</h5>
+            <div class="star">
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+            </div>
+            <h4>$78</h4>
+            <a href="#" class="cart"
+              ><iconify-icon
+                icon="jam:shopping-cart"
+                style="color: black"
+                width="40"
+                height="40"
+              ></iconify-icon
+            ></a>
+          </div>
+        </div>
+
+        <div class="pro" onclick="window.location.href='shop.html';">
+          <img src="./images/shirt7.jpg" alt="" class="cloth" />
+          <div class="des">
+            <span>Shirt</span>
+            <h5>SunWard Summer T-Shirt</h5>
+            <div class="star">
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+            </div>
+            <h4>$80</h4>
+            <a href="#" class="cart"
+              ><iconify-icon
+                icon="jam:shopping-cart"
+                style="color: black"
+                width="40"
+                height="40"
+              ></iconify-icon
+            ></a>
+          </div>
+        </div>
+
+        <div class="pro" onclick="window.location.href='shop.html';">
+          <img src="./images/shirt8.jpg" alt="" class="cloth" />
+          <div class="des">
+            <span>Shirt</span>
+            <h5>SunWard Summer T-Shirt</h5>
+            <div class="star">
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <iconify-icon
+                icon="material-symbols:star-rate-rounded"
+                style="color: rgba(213, 213, 0, 0.871)"
+                width="30"
+                height="30"
+              ></iconify-icon>
+            </div>
+            <h4>$78</h4>
+            <a href="#" class="cart"
+              ><iconify-icon
+                icon="jam:shopping-cart"
+                style="color: black"
+                width="40"
+                height="40"
+              ></iconify-icon
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sm-banner" class="section-p1">
+      <div class="banner-box">
+        <h4>crazy deals</h4>
+        <h2>buy 1 get 1 FREE</h2>
+        <span>The best classic dress is on sale at cara</span>
+        <button class="btn-2">Learn More</button>
+      </div>
+
+      <div class="banner-box banner-box2">
+        <h4>spring/summer</h4>
+        <h2>upcomming season</h2>
+        <span>The best classic dress is on sale at cara</span>
+        <button class="btn-2">Collections</button>
+      </div>
+    </section>
+
+    <section class="banner3">
+      <div class="banner-box">
+        <h2>SEASONAL SALE</h2>
+        <h3>Winter Collection -50% OFF</h3>
+      </div>
+      <div class="banner-box banner-box2">
+        <h2>NEW FOOTWEAR COLLECTION</h2>
+        <h3>Spring / Season 2023</h3>
+      </div>
+      <div class="banner-box banner-box3">
+        <h2>T-shirts</h2>
+        <h3>New Trendy Prints</h3>
+      </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>Sign Up For Newsletters</h4>
+        <p>
+          Get E-mail updates about our latest shop and
+          <span>special offers.</span>
+        </p>
+      </div>
+      <div class="form">
+        <input type="email" placeholder="Your E-mail address" name="" id="" />
+        <button class="news-btn">Sign Up</button>
+      </div>
+    </section>
+
+    <section id="footer">
+      <footer class="padding_4x">
+        <div class="flex">
+          <section class="flex-content padding_1x">
+            <h3>Top Products</h3>
+            <a href="#">Managed Website</a>
+            <a href="#">Manage Reputation</a>
+            <a href="#">Power Tools</a>
+            <a href="#">Marketing Service</a>
+          </section>
+          <section class="flex-content padding_1x">
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="blog.html">Blog</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+          </section>
+          <section class="flex-content padding_1x">
+            <h3>Features</h3>
+            <a href="#">Jobs</a>
+            <a href="#">Brand Assets</a>
+            <a href="#">Investor Relations</a>
+            <a href="#">Terms of Service</a>
+          </section>
+          <section class="flex-content padding_1x">
+            <h3>Resources</h3>
+            <a href="#">Guides</a>
+            <a href="#">Research</a>
+            <a href="#">Experts</a>
+            <a href="#">Agencies</a>
+          </section>
+        </div>
+        <div class="flex">
+          <section class="flex-content padding_1x">
+            <p style="color: black">
+              Copyright ©2023 All rights reserved || Shop.Me
+            </p>
+          </section>
+          <section class="flex-content padding_1x">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-dribbble"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+          </section>
+        </div>
+      </footer>
+    </section>
+    <!-- <script>
+  $(document).ready(function(){
+    $("#footer").load('footer.html');
+  
+  })
+</script> -->
+
+    <script src="./script.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+  </body>
+</html>
